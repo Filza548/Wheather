@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    /* border-color:2px solid red; */
+}
+
+.row{
+    /* border: 2px solid yellowgreen; */
+}
+
+.col-sm{
+    /* background-color: blueviolet; */
+    /* border: 3px solid peru; */
+}
+
+.first{
+    /* border: 2px solid brown; */
+    
+}
+
+.first img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.second{
+    /* border: 2px solid rgb(42, 138, 165); */
+}
+
+.sec-child1{
+    /* border: 2px solid rgb(159, 13, 37); */
+}
+
+.sec-child2{
+    /* border: 2px solid rgb(193, 125, 136); */
+}
+
+.sec-child3{
+    /* border: 2px solid rgb(249, 101, 125); */
+}
+
+.main{
+    background-color: rgb(61, 62, 60);
+    width: 400px;
+    height: 380px;
+    border-radius: 10px; /* Card ke corners ko round karna */
+    border: 2px solid rgb(190, 190, 191); /* Border ko neon purple karna */
+    box-shadow: 
+        0 0 10px rgb(190, 190, 191), /* Purple neon glow */
+        0 0 20px rgb(190, 190, 191), /* Purple neon glow */
+        0 0 40px rgb(190, 190, 191), /* Purple neon glow */
+        0 0 80px rgb(190, 190, 191); /* Purple neon glow */
+    outline: 2px solid rgb(190, 190, 191); /* Outline for extra glow */
+    outline-offset: 5px; /* Outline aur border ke beech ka space */
+}
+
+
+.main-1{
+    background-color: rgb(61, 62, 60);
+    width: 400px;
+    height: 380px;
+    border-radius: 10px; /* Card ke corners ko round karna */
+    border: 2px solid rgb(190, 190, 191); /* Border ko neon purple karna */
+    box-shadow: 
+        0 0 10px rgb(190, 190, 191), /* Purple neon glow */
+        0 0 20px rgb(190, 190, 191), /* Purple neon glow */
+        0 0 40px rgb(190, 190, 191), /* Purple neon glow */
+        0 0 80px rgb(190, 190, 191); /* Purple neon glow */
+    outline: 2px solid rgb(190, 190, 191); /* Outline for extra glow */
+    outline-offset: 5px; /* Outline aur border ke beech ka space */
+}
